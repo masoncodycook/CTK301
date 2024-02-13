@@ -1,0 +1,37 @@
+
+  a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff00;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }        
+
+  h1 {
+    color: #ff0000;
+    background-color: black;
+  }
+
+  h2 {
+    color: aqua;
+    background-color: black;
+  }
+
+  h3 {
+    color: #00ff00;
+    background-color: black;
+  }
+
+  #idone {
+    color: red;
+    background-color: black;
+  }
+
+  .classone {
+    color: yellow;
+    background-color: black;
+  }
