@@ -1,0 +1,33 @@
+h1 {
+    color: white;
+}
+#idone {
+    background-color: lightblue;
+}
+h2 {
+    color: blue;
+}
+.classone {
+    color: orange;
+}
+.classtwo {
+    background-color: yellow;
+}
+h4 {
+    color: yellow;
+    background-color: green;
+}
+.classthree {
+    color: red;
+}
+a:link {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+#idtwo {
+    background-color: lightgreen;
+}
