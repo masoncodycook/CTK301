@@ -1,0 +1,75 @@
+a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff00;
+  }
+  
+  a:hover {
+    color: #ffff00;
+  }        
+
+  h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+
+  h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+
+  h3 {
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+
+  #idone {
+    color: red;
+    background-color: black;
+  }
+
+  .classone {
+    color: yellow;
+    background-color: black;
+  }
+
+    p {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+ .classtwo {
+    text-align: center;
+ }
+
+ .classthree {
+    text-align: justify;
+ }
+
+ li {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+ }
+
+ .imgs {
+    border: 10px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-color: yellow;
+ }
+body {
+    background-image: url(checkers.png);
+    background-repeat: repeat;
+    background-position: top;
+}
