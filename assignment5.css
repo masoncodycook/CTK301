@@ -75,3 +75,10 @@ nav li {
     background-color: blue;
     text-decoration: none;
   }
+  nav li a:visited {
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    text-decoration: none;
+  }
