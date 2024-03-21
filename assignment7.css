@@ -1,0 +1,131 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #69d0fc;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+h2 {
+    color: #18449e;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+}
+
+hr {
+    background-color: #18449e;
+    color: #18449e;
+    height: 3px;
+    padding-top: 0px;
+}
+
+p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#idone {
+    text-align: justify;
+    font-weight: bold;
+}
+
+main img {
+    border: 5px solid #23459e;
+}
+
+#wrapper {
+    margin: 1em auto;
+    width: 960px;
+    border: 5px solid #23459e;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+    grid-column: span 12;
+    background-image: linear-gradient(#3088e7, #1b4ea7);
+}
+
+nav {
+    grid-column: span 12;
+    padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #1b4ea7;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    width: 237px;
+}
+
+nav li a:link {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(#3088e7, #1b4ea7);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #69d0fc;
+    text-decoration: none;
+}
+
+nav li a:visited {
+    display: block;
+    background-image: linear-gradient(#3088e7, #1b4ea7);
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+aside {
+    grid-column: span 4;
+    padding: 30px;
+    background-color: #add8e6;
+}
+
+main {
+    grid-column: span 8;
+    padding: 30px;
+}
+
+footer {
+    grid-column: span 12;
+    border-top: 5px solid #23459e;
+    background-color: red;
+    padding: 10px;
+}
+
+#barbie {
+    grid-column: span 4;
+    padding: 20px;
+}
+#ken {
+    grid-column: span 4;
+    padding: 20px;
+}
+#allan {
+    grid-column: span 4;
+    padding: 20px;
+}
