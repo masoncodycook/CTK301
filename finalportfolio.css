@@ -1,0 +1,196 @@
+body {
+  background-image: url(checkers.png);
+}
+
+#wrapper {
+  margin: 1em auto;
+  width: 960px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header {
+  grid-column: span 12;
+  background-image: linear-gradient(#424242, #000000);
+  padding: 20px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: solid 3px white;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+nav {
+  grid-column: span 12;
+  padding: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  width: 230px;
+}
+
+nav li a:link {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+nav li a:visited{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#redsuit {
+  background-image: linear-gradient(#cc0000, #6d0000);
+  border-radius: 200px;
+  border: solid 3px white;
+}
+
+#redsuit a:hover {
+  background-image: linear-gradient(#8a0000, #420000);
+  border-radius: 200px;
+}
+
+#blacksuit {
+  background-image: linear-gradient(#424242, #000000);
+  border-radius: 200px;
+  border: solid 3px white;
+}
+
+#blacksuit a:hover {
+  background-image: linear-gradient(#242424, #000000);
+  border-radius: 200px;
+}
+
+aside {
+  grid-column: span 3;
+}
+
+.paragraph {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: justify;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border: solid 3px white;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.photograph {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border: solid 3px white;
+}
+
+main {
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+  text-align: justify;
+  grid-column: span 4;
+  border: solid 3px white;
+  padding: 20px;
+}
+
+#emphasis {
+  color: red;
+  padding: 0px;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer {
+  grid-column: span 12;
+  border: 3px solid white;
+  background-color: red;
+  padding: 10px;
+}
+
+main p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+#myCarousel {
+  margin-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  padding: 24px;
+  background: black;
+  text-align: center;
+}
+
+#maindiv {
+  grid-column: span 12;
+}
+
+#myCarousel img {
+  border-radius: 20px;
+}
+
+#aboutmewrapper {
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+  text-align: justify;
+  grid-column: span 7;
+  border: solid 3px white;
+  padding: 20px;
+}
+
+#aboutmewrapper img {
+  border-radius: 25px;
+}
+
+#aboutmetext {
+  background-color: black;
+  border-radius: 40px;
+  color: white;
+  text-align: justify;
+  grid-column: span 4;
+  border: solid 3px white;
+  padding: 20px;
+}
