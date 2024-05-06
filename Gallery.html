@@ -26,7 +26,7 @@
 		<li id="blacksuit"><a href="HomePage.html">Home ♠</a></li>
 		<li id="redsuit"><a href="AboutMe.html">About Me ♦</a></li>
 		<li id="blacksuit"><a href="Gallery.html">Gallery ♣</a></li>
-		<li id="redsuit"><a href="#">Upcoming ♥</a></li>
+		<li id="redsuit"><a href="Upcoming.html">Upcoming ♥</a></li>
 	</ul>
 	<br>
 	</nav>
@@ -45,13 +45,16 @@
             <div class="f-carousel__slide"><img src="diavolo2.jpg" width="690"><br><i>Diavolo and King Crimson.</i></div>
             <div class="f-carousel__slide"><img src="cantstop.jpg" width="690"><br><i>Can't Stop, a fierce opponent.</i></div>
             <div class="f-carousel__slide"><img src="fellow.gif" width="690"><br><i>A friendly face you might see soon.</i></div>
+            <div class="f-carousel__slide"><img src="snazkarmgrab.gif" width="690"><br><i>Custard's unfortunate demise.</i></div>
+            </div>
+
     </main>
     <br>
-<main id="maindiv">
+    <main id="maindiv">
         <h1>
             2023-2024 Pencil and Paper Drawings
         </h1>
-        <div id="myCarousel" class="f-carousel">
+        <div id="secondCarousel" class="f-carousel">
             <div class="f-carousel__slide"><img src="dragon.jpg" width="690"><br><i>A sketch of a dragon.</i></div>
             <div class="f-carousel__slide"><img src="donnyosmond.png" width="690"><br><i>Donny Osmond and The Garden.</i></div>
             <div class="f-carousel__slide"><img src="quille.jpg" width="690"><br><i>Quille and a silent observer.</i></div>
@@ -61,12 +64,17 @@
             <div class="f-carousel__slide"><img src="diavolo.jpg" width="690"><br><i>Diavolo and King Crimson.</i></div>
             <div class="f-carousel__slide"><img src="jotaro.jpg" width="690"><br><i>Jotaro Kujo and Star Platinum.</i></div>
             <div class="f-carousel__slide"><img src="thehand.jpg" width="690"><br><i>The Hand.</i></div>
+        </div>
     </main>
     <script>   
         const container = document.getElementById("myCarousel");
           const options = { infinite: true };
           new Carousel(container, options);
           Fancybox.bind("[data-fancybox]", {});
+            
+          const container2 = document.getElementById("secondCarousel");
+          const options2 = { infinite: true };
+          new Carousel(container2, options2);
         </script>
 <br>
 	<footer>

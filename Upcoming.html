@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mason Cook</title>
+	<link href="finalportfolio.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Jersey+20+Charted&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+</head>
+
+<body>
+	<div  id="wrapper">
+	<header>
+	<h1>Mason Cook ♕</h1>
+	</header>
+	<nav>
+		<br>
+	<ul>
+		<li id="blacksuit"><a href="HomePage.html">Home ♠</a></li>
+		<li id="redsuit"><a href="AboutMe.html">About Me ♦</a></li>
+		<li id="blacksuit"><a href="Gallery.html">Gallery ♣</a></li>
+		<li id="redsuit"><a href="Upcoming.html">Upcoming ♥</a></li>
+	</ul>
+	<br>
+	</nav>
+
+    
+
+    <main id="maindiv">
+        <h1>
+            Works in Progress
+        </h1>
+        <div id="myCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="fellow.gif" width="690"><br>I've been employed by ISU to assist with the creation of a self-guided tour. This gif is of the talking cycle for one of the virtual tour guide characters.</div>
+            <div class="f-carousel__slide"><img src="gh.png" width="690"><br>In my freelance work, I've been employed by a group of Youtubers to be a thumbnail artist for them, this being an example of one of my most recent drawing for them.</div>
+            <div class="f-carousel__slide"><img src="snazkarmgrab.gif" width="690"><br>During my free time I've been playing around with the idea of creating a role-playing game featuring a cast of colorful characters like these. Keep your eyes peeled for it.</div>
+</main>
+
+    <script>   
+        const container = document.getElementById("myCarousel");
+          const options = { infinite: true };
+          new Carousel(container, options);
+          Fancybox.bind("[data-fancybox]", {});
+        </script>
+<br>
+	<footer>
+		<a href="https://illinoisstate.edu/"><img src="wordmark_isu.png" alt="Illinois State University Logo."></a>
+		<a href="https://www.instagram.com/illinoisstateu/" target="_blank" class="bi bi-instagram"></a>
+		<a href="https://twitter.com/IllinoisStateU?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="bi bi-twitter"></a>
+	</footer>
+	</div>
+</body>
+</html>
